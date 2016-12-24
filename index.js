@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import { TextInput, ListView, TouchableOpacity } from 'react-native'
+import { TextInput, View, Text, ListView, TouchableOpacity } from 'react-native'
 
-export default class FilterableList {
+export default class FilterableList extends Component {
   static get defaultProps() {
     return {
       showSearch: true,
-      searchPlaceholder: 'Search...'
-      onPressItem: () => { }
+      searchPlaceholder: 'Search...',
+      onPressItem: () => {}
     }
   }
 
@@ -37,6 +37,7 @@ export default class FilterableList {
                    onChangeText={query => this.setState({query: query})} />
 
         <ListView
+          enableEmptySections={true}
           dataSource={listItems}
           renderRow={(item) => {
             return (
