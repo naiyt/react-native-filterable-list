@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // TODO: actually include as a dependency when it's on npm
-import FilterableList from './filterable_list';
+import FilterableList from 'react-native-filterable-list';
 
 export default class FilterableListExample extends Component {
   get items() {

@@ -9,7 +9,7 @@
 	"dependencies": {
 		"react": "15.4.1",
 		"react-native": "0.39.2",
-		"react-native-filterable-list": "naiyt/react-native-filterable-list"
+		"react-native-filterable-list": "https://github.com/naiyt/react-native-filterable-list"
 	},
 	"devDependencies": {
 		"babel-jest": "18.0.0",
