@@ -3,12 +3,6 @@
   "version": "0.0.1",
   "description": "Filtereable list view for React Native",
   "main": "index.js",
-  "scripts": {
-    "test": "jest --verbose"
-  },
-  "jest": {
-    "preset": "react-native"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naiyt/react-native-filterable-list.git"
@@ -26,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/naiyt/react-native-filterable-list/issues"
   },
-  "homepage": "https://github.com/naiyt/react-native-filterable-list#readme",
-  "devDependencies": {
-    "jest": "^18.0.0"
-  }
+  "homepage": "https://github.com/naiyt/react-native-filterable-list#readme"
 }
